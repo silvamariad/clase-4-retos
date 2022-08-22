@@ -1,3 +1,3 @@
-# Mi Primer Reto con Docker
+## Mi Primer Reto con Docker
 
-![docker](/assets/img/logo.png)
+![Esta es una imagen](/assets/img/logo.png)
