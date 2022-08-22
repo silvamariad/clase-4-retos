@@ -33,7 +33,7 @@
     > docker rm servidor_web
 ![paso 6](https://github.com/silvamariad/clase-4-retos/blob/main/reto1/img/6-1.png)
 
-## paso 7: muestra todos los contenedores aun no esten corriendo
+## paso 7: muestra todos los contenedores aunque no esten corriendo
 
     > docker ps -a
 ![paso 7](https://github.com/silvamariad/clase-4-retos/blob/main/reto1/img/7-1.png)
