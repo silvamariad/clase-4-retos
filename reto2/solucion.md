@@ -7,4 +7,4 @@
     > MARIADB_PASSWORD      =invitado
 
 ## Usamos el docker run para crear la img, asigamos el puerto.
-    > docker run --name bbdd --env MARIADB_ROOT_PASSWORD=root --env MARIADB_DATABASE=prueba --env MARIADB_USER=invitado --env MARIADB_PASSWORD=invitado mariadb --port 3306:3306
+    > docker run -d --name bbdd1 --env MARIADB_ROOT_PASSWORD=root --env MARIADB_DATABASE=prueba --env MARIADB_USER=invitado --env MARIADB_PASSWORD=invitado -p 3307:3306 mariadb
