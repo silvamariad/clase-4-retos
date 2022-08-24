@@ -23,7 +23,7 @@ command -v docker >/dev/null 2>&1 || {
 echo "###########################################"
 echo "#         ..::Creando la img::.           #"
 echo "###########################################"
-docker run -d --name bbdd1 --env MARIADB_ROOT_PASSWORD=root --env MARIADB_DATABASE=prueba --env MARIADB_USER=invitado --env MARIADB_PASSWORD=invitado -p 3307:3306 mariadb
+docker run -d --name bbdd1 --env MARIADB_ROOT_PASSWORD=root --clearenv MARIADB_DATABASE=prueba --env MARIADB_USER=invitado --env MARIADB_PASSWORD=invitado -p 3307:3306 mariadb
 
 echo "###########################################"
 echo "#..::Nuestro contenedor esta corriendo::..#"
