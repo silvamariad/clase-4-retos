@@ -1,15 +1,18 @@
 # escape=`
 # Archivo Dockerfile del reto3
 
-#creamos la img
+#creamos el contenedor v.1.0
 
 FROM nginx:alpine
 # partimos del la version alpine
 COPY index.html /usr/share/nginx/html/index.html
 # copiamos el archivo de nuestro local
-RUN apt-get update -y \ apt-get -y upgrade; \ apt-get -y install apt-utils \  vim \ nano \  htop; 
+RUN apt-get update -y && apt-get -y upgrade; && apt-get -y install apt-utils &&  vim && nano &&  htop; 
 # actualizamos los paquetes del sistema
 RUN apt-get -y install dstat
 # e instalamos las actualizaciones
 EXPOSE 82
 # Indicamos que este contenedor se comunica por el puerto 82/tcp
+ENTRYPOINT echo "Mi 1era Img desde cero!!!"
+
+CMD ["bash"]
