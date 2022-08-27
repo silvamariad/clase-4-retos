@@ -11,10 +11,4 @@ RUN apt-get update -y \ apt-get -y upgrade; \ apt-get -y install apt-utils \  vi
 # actualizamos los paquetes del sistema
 RUN apt-get -y install dstat
 # e instalamos las actualizaciones
-EXPOSE 8282
-# asignamos el puerto
-VOLUME "static_content:/usr/share/nginx/html"
-# trabajaremos con un volumen existente
-WORKDIR /opt/lampp/htdocs/
-# nuestro direcctorio por defecto
 CMD ["bash"]
