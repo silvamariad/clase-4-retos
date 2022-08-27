@@ -2,7 +2,7 @@
 
 ## Paso 1:
 
-    > docker run -d --name contnginx -p 8181:80 nginx:alpine
+    > docker run -d --name cont1 -p 8181:80 nginx:alpine
 
 ## Paso 2: vemos que img tenemos
 
@@ -14,7 +14,7 @@
 
 ## paso 4: entramos al contenedor com
 
-    > docker exec -it NGINX sh
+    > docker exec -it cont1 sh
 
 ## paso 5: Copiar el archivo index.htm de la carpeta src desde el host a la carpeta del contenedor.
 
@@ -22,4 +22,12 @@
 
 ## comando:
     
-    > docker run -v $PWD/index.html:/usr/share/nginx/html -d -p 81:80 nginx
+    > docker cp index.html cont1:/usr/share/nginx/html/index.html
+
+## Crear un volumen 'static_content' en el CLI de Docker
+
+    > docker volume create static_content
+
+## Construir la imagen del contenedor 
+
+    > docker build -t bootcamp_nginx/nginx:latest
