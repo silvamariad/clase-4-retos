@@ -12,4 +12,4 @@ RUN apt-get update -y \ apt-get -y upgrade; \ apt-get -y install apt-utils \  vi
 RUN apt-get -y install dstat
 # e instalamos las actualizaciones
 EXPOSE 82
-# Indicamos que este contenedor se comunica por el puerto 80/tcp
+# Indicamos que este contenedor se comunica por el puerto 82/tcp
