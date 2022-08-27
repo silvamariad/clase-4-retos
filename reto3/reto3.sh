@@ -40,10 +40,11 @@ echo "#..::Copiamos el archivo index.html del local al contenedor::..#"
 echo "################################################################"
 docker cp index.html cont1:/usr/share/nginx/html/index.html
 
-echo "###################################################################################"
-echo "#..::Entremos al contenedor cont1 y buscarmos la carpeta /usr/share/nginx/html::..#"
-echo "###################################################################################"
-docker exec -it cont1 sh
+echo "##############################################################"
+echo "#     ..::Entremos al contenedor cont1 y buscarmos la ::..   #"
+echo "#         ..::carpeta /usr/share/nginx/html::..              #"
+echo "##############################################################"
+docker exec -it cont1 ls /usr/sr/share/nginx/html/
 
 echo "######################################################"
 echo "#       ..::Luego actualizamos el Navegador::..      #"
