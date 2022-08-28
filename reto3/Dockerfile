@@ -14,5 +14,3 @@ RUN apt-get -y install dstat
 EXPOSE 82
 # Indicamos que este contenedor se comunica por el puerto 82/tcp
 ENTRYPOINT echo "Mi 1era Img desde cero!!!"
-
-CMD ["bash"]
