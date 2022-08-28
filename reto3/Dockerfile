@@ -10,4 +10,4 @@ FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
 
 #imprime en la terminal
-ENTRYPOINT echo "Mi 1era Img desde cero!!!"
+ENTRYPOINT echo "Creando Mi 1era Img desde cero!!!"
