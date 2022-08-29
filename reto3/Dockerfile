@@ -7,7 +7,10 @@
 FROM nginx:alpine
 
 # copiamos el archivo de nuestro local
-COPY index.html /usr/share/nginx/html/index.html
+COPY index.html /usr/share/nginx/html
+
+#el puerto para la img
+EXPOSE 82
 
 #imprime en la terminal
 ENTRYPOINT echo "Creando Mi 1era Img desde cero!!!"
