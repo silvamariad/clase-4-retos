@@ -13,4 +13,4 @@ COPY index.html /usr/share/nginx/html
 EXPOSE 82
 
 #imprime en la terminal
-ENTRYPOINT echo "Creando Mi 1era Img desde cero!!!"
+RUN echo "Creando Mi 1era Img desde cero!!!"
