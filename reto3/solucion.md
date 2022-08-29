@@ -30,4 +30,4 @@
 
 ## Construir la imagen del contenedor 
 
-    > docker build -t bootcamp_nginx/nginx:latest
+    > docker build -t bootcamp_nginx/nginx:latest .
