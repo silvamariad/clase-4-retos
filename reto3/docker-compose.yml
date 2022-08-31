@@ -1,0 +1,12 @@
+#docker-compose.yml 
+version: 'v1.0.0'
+services:
+  web:
+    container_name: bootcamp_nginx
+    ports:
+      -"8085:80"
+    image: nginx:alpine
+    volumes:
+      - "static_content:/usr/share/nginx/html"
+volumes:
+  static_content:
