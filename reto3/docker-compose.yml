@@ -4,7 +4,7 @@ services:
   web:
     container_name: bootcamp_nginx
     ports:
-      -"82:80"
+      -"82"
     image: nginx:alpine
     volumes:
       - "static_content:/usr/share/nginx/html"
