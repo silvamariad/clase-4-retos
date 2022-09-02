@@ -9,7 +9,7 @@ FROM nginx:alpine
 # copiamos el archivo de nuestro local
 COPY index.html /usr/share/nginx/html
 
-#el puerto para la img
+#el puerto del contenedor
 EXPOSE 82
 
 #imprime en la terminal
