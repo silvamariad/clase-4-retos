@@ -27,4 +27,3 @@
 
 ![conectando con la BD prueba](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto2/img/5.jpg)
 
-## Reto Terminado
