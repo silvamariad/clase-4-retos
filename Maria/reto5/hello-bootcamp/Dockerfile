@@ -13,7 +13,7 @@ COPY packege*.json ./
 RUN npm install
 
 #copiamos todo a nuestro directorio actual
-COPY . .
+COPY /opt/lampp/htdocs/clase-4-retos/Maria/reto5/ /usr/src/hello-bootcamp
 
 #imprime en la terminal
 RUN echo "Creado mi Img de Nodejs"
