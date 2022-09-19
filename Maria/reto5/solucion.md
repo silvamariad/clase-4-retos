@@ -2,31 +2,42 @@
 
 ## Paso 1: Creamos el package.json
 
-![paso 1](https://github.com/silvamariad/clase-4-retos)
+![paso 1](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker9.png)
 
-## Paso 2: Creamos el package-lock.json
+![paso 1.1](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker10.png)
 
-![paso 2](https://github.com/silvamariad/clase-4-retos)
+## Paso 2: Creamos el node_modules
+
+![paso 2](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker11.png)
 
 ## Paso 3: Creamos el Dockerfile 
 
-![paso 3](https://github.com/silvamariad/clase-4-retos)
+![paso 3](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker0.png)
 
-## Paso 4: Consultamos si la imagen esta creada
+## Paso 4: Creamos la img apartir del Dockerfile con un docker build
 
-!![paso 4](https://github.com/silvamariad/clase-4-retos)
+![paso 4](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker1.png)
 
-## Paso 5: Hacemos un docker run y le asignamos el puerto para verlo en el 4000:4000
+## Paso 5: Consultamos si la imagen esta creada
 
-![paso 5](https://github.com/silvamariad/clase-4-retos)
+!![paso 5](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker2.png)
 
-## Paso 6: Verificamos con `` docker ps `` que nuestra contenedor esta corriendo
+## Paso 6: Hacemos un docker run y le asignamos el puerto para verlo en el 4000:4000
 
-![paso 6](https://github.com/silvamariad/clase-4-retos)
+![paso 6](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker3.png)
 
-## Paso 7: hacemos un docker tag node_hello-bootcamp:1.0.0 silvamaria/node_hello-bootcamp:1.0.0
-![paso 7](https://github.com/silvamariad/clase-4-retos)
+## Paso 7: hacemos un docker tag 
 
-## Paso 8: hacemos una docker push silvamaria/node_hello-bootcamp:1.0.0
+![paso 7](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker4.png)
 
-![paso 8](https://github.com/silvamariad/clase-4-retos)
+## Paso 8: hacemos una docker push
+
+![paso 8](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker5.png)
+
+![paso 8.1](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker6.png)
+
+![paso 8.2](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker7.png)
+
+## Paso 9: Terminado el Docker push podemos ver nuestra img cargada
+
+![paso 9](https://github.com/silvamariad/clase-4-retos/blob/main/Maria/reto5/img/docker8.png)
