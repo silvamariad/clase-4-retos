@@ -19,6 +19,7 @@ command -v docker >/dev/null 2>&1 || {
     sleep 4.0
     echo >&2 "Listo..."
 }
+
 echo "###########################################"
 echo "#         ..::Creando la carpeta::.       #"
 echo "###########################################"
